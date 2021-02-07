@@ -18,7 +18,7 @@ In a performance-based model, advertisers pay for consumers activities that driv
 Therefore, this analysis will predict the total number of people who buy the product after seeing the ad (Approved Conversion).
 
 
-#**2. Data**
+# **2. Data**
 
 The original dataset is called *Sales Conversion Optimization* and was downloaded from Kaggle website: [Sales Conversion Optimization](https://www.kaggle.com/loveall/clicks-conversion-tracking)
 The data is about an organization's social media ad campaign. It contains 1143 observations and 11 variables. 
@@ -26,15 +26,15 @@ The data is about an organization's social media ad campaign. It contains 1143 o
 Approved Conversion, which represents the total number of people who bought the product after seeing the ad, will be the target variable. Because it's a continuos variable, we are dealing with a regression task.
 
 
-#**3. Methodology**
+# **3. Methodology**
 
-###**Data Cleaning:** In this step, I will eliminate any problems from the dataset which would prevent further analysis.
+### **Data Cleaning:** In this step, I will eliminate any problems from the dataset which would prevent further analysis.
 
-###**Data Exploration:** In this step, I will apply statistics and visualization techniques to gain a better understanding of the dataset.
+### **Data Exploration:** In this step, I will apply statistics and visualization techniques to gain a better understanding of the dataset.
 
-###**Feature engineering:** In this final step of Exploratory Data Analysis (EDA), I will select the most useful features or create new features from the existing ones.
+### **Feature engineering:** In this final step of Exploratory Data Analysis (EDA), I will select the most useful features or create new features from the existing ones.
 
-###**Modelling:** Apply several models to predict the number of sales and select the best performing model.
+### **Modelling:** Apply several models to predict the number of sales and select the best performing model.
 
 
 **Model 1: Random Forest Regression**
@@ -64,7 +64,7 @@ Although random forest is a strong performer; one of its disadvantages is that i
 Taking this into consideration, I will use Gradient Boosting Regressor to improve the prediction of Approved Conversion.
 
 
-#**4. Results**
+# **4. Results**
 
 We kept Impressions, Clicks, Spent, and Total Conversion features because they have the strongest correlation to the outcome (Approved Conversion).
 
