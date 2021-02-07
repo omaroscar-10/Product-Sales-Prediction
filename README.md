@@ -1,4 +1,4 @@
-#**Product-Sales-Prediction**
+# **Product-Sales-Prediction**
 
 Predicted the total number of people who buy the product after seeing the ad. 
 
