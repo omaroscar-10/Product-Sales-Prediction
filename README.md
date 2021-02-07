@@ -28,21 +28,21 @@ Approved Conversion, which represents the total number of people who bought the 
 
 # **3. Methodology**
 
-### **Data Cleaning:** In this step, I will eliminate any problems from the dataset which would prevent further analysis.
+**Data Cleaning:** In this step, I will eliminate any problems from the dataset which would prevent further analysis.
 
-### **Data Exploration:** In this step, I will apply statistics and visualization techniques to gain a better understanding of the dataset.
+**Data Exploration:** In this step, I will apply statistics and visualization techniques to gain a better understanding of the dataset.
 
-### **Feature engineering:** In this final step of Exploratory Data Analysis (EDA), I will select the most useful features or create new features from the existing ones.
+**Feature engineering:** In this final step of Exploratory Data Analysis (EDA), I will select the most useful features or create new features from the existing ones.
 
-### **Modelling:** Apply several models to predict the number of sales and select the best performing model.
+**Modelling:** Apply several models to predict the number of sales and select the best performing model.
 
 
-**Model 1: Random Forest Regression**
+### **Random Forest Regression**
 
 I will use random forest in the model which can be used for both classification and regression tasks by constructing a multitude of decision trees (generally outperform decision tress). The main difference is how the votes are aggregated. As a classifier, the most popular outcome (the mode) is returned. And as a regression, it is typically the average (the mean) that is returned.
 
 
-**Improving the model**
+### **Improving the model**
 
 To grow profitably in today’s market, advertisers need to target key conversion metrics and analyze consumers behaviors. 
 
@@ -57,7 +57,7 @@ Some of the KPIs that digital advertisers use to identify prospects who are most
 Therefore, I will create these new features and use them to predict Approved Conversion. I will not include the age dummy variable in the feature set. And I will change some of the parameters of the RandomForestRegressor() function (n_estimators=250, criterion="mse", max_depth=6, max_features=2).
 
 
-**Model 3: Gradient Boosting Regressor**
+### **Gradient Boosting Regressor**
 
 Although random forest is a strong performer; one of its disadvantages is that it will not predict outside of the sample.
 
