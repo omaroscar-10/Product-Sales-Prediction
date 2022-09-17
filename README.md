@@ -36,10 +36,6 @@ Approved Conversion, which represents the total number of people who bought the 
 
 **Modelling:** Apply several models to predict the number of sales and select the best performing model.
 
-### **Multiple Linear Rgression**
-
-### **Random Forest Regression**
-
 # **4. Results**
 
 # **5. Discussion & Recommendations**
