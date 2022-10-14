@@ -38,6 +38,8 @@ Approved Conversion, which represents the total number of people who bought the 
 
 # **4. Results**
 
+Comparison of Actual vs Predicted values. 
+
 # **5. Discussion & Recommendations**
 
 To reach an audience and make sales, advertisers need a solid marketing strategy because good marketing it’s not successful marketing until the customer has bought a product or service.
